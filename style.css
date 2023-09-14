@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: hsl(229, 23%, 23%);
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position:700px 300px ;
+    background-size: 800px;
+    padding-top: 170px;
+}
+img.top{
+    z-index: -9;  
+    width: 800px;
+    position: relative;
+    bottom: 900px;
+    right: 200px;
+}
+.card{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: 400px;
+    background-position: top ;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.card img{
+    
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+}
+.card .name{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 20px;
+    padding-top: 40px;
+    display:flex;
+}
+.card .profile{
+    background-color: white; 
+    height: 240px;
+    text-align: right;
+    border-radius: 20px;
+    border-top-right-radius:0 ;
+    border-top-left-radius:0 ;
+}
+.card .name h3{
+    font-size: 18px;
+    padding-top: 40px;
+    margin-left: 90px;
+}
+.card .name p{
+    color: hsl(0, 0%, 59%);
+    padding-top: 10px;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.London{
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.card  .statics{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.card .statics h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.card .statics p{
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+.card .statics .Followers{
+    padding-left: 0px;
+    
+}
+.card .statics .Likes{
+    padding-left: 40px;
+    
+}
+.card  .statics .Photos{
+
+    padding-left: 40px;
+}
+
+
+
+.attribution { 
+    padding-top: 10px;
+    font-size: 12px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
